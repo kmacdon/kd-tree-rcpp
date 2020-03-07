@@ -1,7 +1,7 @@
 #include "node.hpp"
 using namespace Rcpp;
 
-Node::Node(int column, float med, NumericVector point, IntegerVector point_class, Node *left_node, Node *right_node) {
+Node::Node(int column, double med, NumericVector point, IntegerVector point_class, Node *left_node, Node *right_node) {
   this->column = column;
   this->med = med;
   this->point = point;

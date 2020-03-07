@@ -26,7 +26,7 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
     col = clone(col).sort();
     unsigned int index = (col(0) < col(1)) ? 0 : 1;
 
-    float med = col(index);
+    double med = col(index);
     NumericVector median_point = X(index, _);
 
     Node other_side = Node(depth,
@@ -36,7 +36,8 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
                            NULL,
                            NULL);
     if (other_side.point.size() != X.ncol()){
-      Rcpp::stop("Number of elements in node point do not equal number of points in training matrix");
+      Rcout << other_side.point.size() << " " << X.ncol() << "\n";
+      Rcpp::stop("Number of elements in node point do not equal number of points in training matrix2");
     }
     Node * left_side = NULL;
     Node * right_side = NULL;
@@ -64,7 +65,8 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
                                    NULL,
                                    NULL);
     if (node->point.size() != X.ncol()){
-      Rcpp::stop("Number of elements in node point do not equal number of points in training matrix");
+      Rcout << node->point.size() << " " << X.ncol() << "\n";
+      Rcpp::stop("Number of elements in node point do not equal number of points in training matrix1");
     }
     return node;
   } else if (X.nrow() == 0){
@@ -75,11 +77,12 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
   NumericVector col = X(_, depth);
   col = clone(col).sort();
 
-  float med = col(X.nrow() / 2);
+  double med = col(X.nrow() / 2);
   Rcout << "med = " << med << "\n";
 
   int n_left = sum(X(_, depth) < med);
   int n_right = sum(X(_, depth) > med);
+  Rcout << "nleft = " << n_left << " nright = " << n_right << "\n";
   NumericMatrix left_side(n_left, X.ncol());
   IntegerVector left_classes(n_left);
   NumericMatrix right_side(n_right, X.ncol());
@@ -100,9 +103,10 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
     } else {
       median_point = X(i, _);
       median_class = Classes(i);
+      Rcout << "median size = " << median_point.size() << "\n";
     }
   }
-
+  Rcout << "left = " << count_l << " right = " << count_r << "\n";
   Node *left_node = create_tree(left_side,
                                 left_classes,
                                 depth + 1);
@@ -118,6 +122,7 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
                         left_node,
                         right_node);
   if (node->point.size() != X.ncol()){
+    Rcout << node->point.size() << " " << X.ncol() << "\n";
     Rcpp::stop("Number of elements in node point do not equal number of points in training matrix");
   }
   return node;

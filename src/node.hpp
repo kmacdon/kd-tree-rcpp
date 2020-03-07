@@ -7,12 +7,12 @@ class Node{
 public:
   NumericVector point;
   IntegerVector point_class;
-  float med;
+  double med;
   int column;
   Node *left_node;
   Node *right_node;
 public:
   Node() {};
-  Node(int column, float med, NumericVector point, IntegerVector point_class, Node *left_node, Node *right_node);
+  Node(int column, double med, NumericVector point, IntegerVector point_class, Node *left_node, Node *right_node);
   ~Node() {};
 };
