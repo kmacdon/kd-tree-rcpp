@@ -1,0 +1,1419 @@
+median size = 2
+median size = 2
+median size = 2
+median size = 2
+median size = 2
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 0
+other = 0
+other side class = 0
+other side column = 1
+2 row med index = 0
+med class = 0
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 0
+other = 0
+other side class = 0
+other side column = 1
+2 row med index = 0
+med class = 0
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 0
+other = 0
+other side class = 0
+other side column = 1
+2 row med index = 0
+med class = 0
+median size = 2
+median size = 2
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 0
+other = 0
+other side class = 0
+other side column = 1
+2 row med index = 0
+med class = 0
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 0
+other = 0
+other side class = 0
+other side column = 1
+2 row med index = 0
+med class = 0
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+median size = 2
+median size = 2
+median size = 2
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+index = 1
+len(classes) = 2
+1 - index = 0
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 1
+med class = 1
+median size = 2
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+index = 1
+len(classes) = 2
+1 - index = 0
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 1
+med class = 1
+median size = 2
+index = 1
+len(classes) = 2
+1 - index = 0
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 1
+med class = 1
+index = 1
+len(classes) = 2
+1 - index = 0
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 1
+med class = 1
+median size = 2
+median size = 2
+median size = 2
+median size = 2
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+index = 1
+len(classes) = 2
+1 - index = 0
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 1
+med class = 1
+median size = 2
+median size = 2
+index = 1
+len(classes) = 2
+1 - index = 0
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 1
+med class = 1
+index = 1
+len(classes) = 2
+1 - index = 0
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 1
+med class = 1
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+median size = 2
+median size = 2
+median size = 2
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+median size = 2
+index = 1
+len(classes) = 2
+1 - index = 0
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 1
+med class = 1
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+median size = 2
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+index = 1
+len(classes) = 2
+1 - index = 0
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 1
+med class = 1
+median size = 2
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+index = 0
+len(classes) = 2
+1 - index = 1
+Classes(1-index) = 1
+other = 1
+other side class = 1
+other side column = 1
+2 row med index = 0
+med class = 1
+column = 0 med = 0.584867 class = 0
+	column = 1 med = 0.470178 class = 0
+		column = 0 med = 0.213352 class = 0
+			column = 1 med = 0.293262 class = 0
+				column = 0 med = 0.0792123 class = 0
+					column = 1 med = 0.204697 class = 0
+						column = 0 med = 0.0438248 class = 0
+							 NULL
+							 NULL
+						column = 0 med = 0.0689206 class = 0
+							 NULL
+							 NULL
+					column = 1 med = 0.24579 class = 0
+						 NULL
+						column = 1 med = 0.269595 class = 0
+							 NULL
+							 NULL
+				column = 0 med = 0.0716077 class = 0
+					column = 1 med = 0.359045 class = 0
+						 NULL
+						column = 1 med = 0.461033 class = 0
+							 NULL
+							 NULL
+					column = 1 med = 0.298604 class = 0
+						 NULL
+						column = 1 med = 0.435452 class = 0
+							 NULL
+							 NULL
+			column = 1 med = 0.273999 class = 1
+				column = 0 med = 0.372198 class = 0
+					column = 1 med = 0.16736 class = 0
+						column = 0 med = 0.333467 class = 0
+							 NULL
+							 NULL
+						column = 0 med = 0.322936 class = 0
+							 NULL
+							 NULL
+					column = 1 med = 0.100634 class = 0
+						 NULL
+						column = 1 med = 0.106235 class = 0
+							 NULL
+							 NULL
+				column = 0 med = 0.332961 class = 0
+					column = 1 med = 0.339395 class = 0
+						 NULL
+						column = 1 med = 0.368479 class = 0
+							 NULL
+							 NULL
+					column = 1 med = 0.334375 class = 1
+						 NULL
+						column = 1 med = 0.458906 class = 1
+							 NULL
+							 NULL
+		column = 0 med = 0.30508 class = 1
+			column = 1 med = 0.718335 class = 1
+				column = 0 med = 0.206773 class = 0
+					column = 1 med = 0.611034 class = 1
+						column = 0 med = 0.0712126 class = 0
+							 NULL
+							 NULL
+						column = 0 med = 0.0386106 class = 0
+							 NULL
+							 NULL
+					column = 1 med = 0.510402 class = 1
+						 NULL
+						column = 1 med = 0.68109 class = 1
+							 NULL
+							 NULL
+				column = 0 med = 0.232574 class = 1
+					column = 1 med = 0.765497 class = 1
+						 NULL
+						column = 1 med = 0.820527 class = 1
+							 NULL
+							 NULL
+					column = 1 med = 0.913872 class = 1
+						column = 1 med = 0.98838 class = 1
+							 NULL
+							 NULL
+						 NULL
+			column = 1 med = 0.690566 class = 1
+				column = 0 med = 0.423347 class = 1
+					column = 1 med = 0.474493 class = 1
+						 NULL
+						column = 1 med = 0.663708 class = 1
+							 NULL
+							 NULL
+					column = 1 med = 0.502149 class = 1
+						column = 1 med = 0.559185 class = 1
+							 NULL
+							 NULL
+						 NULL
+				column = 0 med = 0.455121 class = 1
+					column = 1 med = 0.875577 class = 1
+						column = 1 med = 0.934465 class = 1
+							 NULL
+							 NULL
+						 NULL
+					column = 1 med = 0.77103 class = 1
+						column = 1 med = 0.995082 class = 1
+							 NULL
+							 NULL
+						 NULL
+	column = 1 med = 0.598526 class = 1
+		column = 0 med = 0.783786 class = 1
+			column = 1 med = 0.397508 class = 1
+				column = 0 med = 0.709684 class = 1
+					column = 1 med = 0.0921763 class = 1
+						column = 0 med = 0.706875 class = 1
+							 NULL
+							 NULL
+						column = 0 med = 0.6565 class = 1
+							 NULL
+							 NULL
+					column = 1 med = 0.0344607 class = 1
+						 NULL
+						column = 1 med = 0.328194 class = 1
+							 NULL
+							 NULL
+				column = 0 med = 0.690806 class = 1
+					column = 1 med = 0.550222 class = 1
+						 NULL
+						column = 1 med = 0.555014 class = 1
+							 NULL
+							 NULL
+					column = 1 med = 0.486333 class = 1
+						column = 1 med = 0.565678 class = 1
+							 NULL
+							 NULL
+						 NULL
+			column = 1 med = 0.250209 class = 1
+				column = 0 med = 0.914733 class = 1
+					column = 1 med = 0.0419111 class = 1
+						column = 1 med = 0.146586 class = 1
+							 NULL
+							 NULL
+						 NULL
+					column = 1 med = 0.00859361 class = 1
+						column = 1 med = 0.139935 class = 1
+							 NULL
+							 NULL
+						 NULL
+				column = 0 med = 0.913479 class = 1
+					column = 1 med = 0.304544 class = 1
+						 NULL
+						column = 1 med = 0.417872 class = 1
+							 NULL
+							 NULL
+					column = 1 med = 0.260645 class = 1
+						 NULL
+						column = 1 med = 0.560284 class = 1
+							 NULL
+							 NULL
+		column = 0 med = 0.79572 class = 1
+			column = 1 med = 0.907492 class = 1
+				column = 0 med = 0.65769 class = 1
+					column = 1 med = 0.866861 class = 1
+						column = 0 med = 0.622012 class = 1
+							 NULL
+							 NULL
+						column = 0 med = 0.588276 class = 1
+							 NULL
+							 NULL
+					column = 1 med = 0.618862 class = 1
+						 NULL
+						column = 1 med = 0.76229 class = 1
+							 NULL
+							 NULL
+				column = 0 med = 0.715503 class = 1
+					column = 1 med = 0.939735 class = 1
+						column = 1 med = 0.981749 class = 1
+							 NULL
+							 NULL
+						 NULL
+					column = 1 med = 0.947377 class = 1
+						 NULL
+						column = 1 med = 0.956293 class = 1
+							 NULL
+							 NULL
+			column = 1 med = 0.879747 class = 1
+				column = 0 med = 0.913383 class = 1
+					column = 1 med = 0.690498 class = 1
+						 NULL
+						column = 1 med = 0.742841 class = 1
+							 NULL
+							 NULL
+					column = 1 med = 0.671627 class = 1
+						column = 1 med = 0.678197 class = 1
+							 NULL
+							 NULL
+						 NULL
+				column = 0 med = 0.821301 class = 1
+					column = 1 med = 0.935535 class = 1
+						 NULL
+						column = 1 med = 0.967998 class = 1
+							 NULL
+							 NULL
+					column = 1 med = 0.888586 class = 1
+						 NULL
+						column = 1 med = 0.98304 class = 1
+							 NULL
+							 NULL
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.584867
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.598526
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.783786
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.397508
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.690806
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.550222
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+NULL tree
+leave left
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = 2 rows
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.151835 class = 1
+leave left
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = > 2
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.110737 class = 1
+leave right
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = > 2
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.09571 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.09571 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.09571 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.09571 class = 1
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.584867
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.470178
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.30508
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.690566
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.455121
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.77103
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+NULL tree
+leave right
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = 2 rows
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.068197 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.068197 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.068197 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.068197 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.068197 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.068197 class = 1
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.584867
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.470178
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.30508
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.718335
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.206773
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.510402
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.68109
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+NULL tree
+leave left
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = other_side
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.152157 class = 1
+leave right
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = 2 rows
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.0581794 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0581794 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0581794 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0581794 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0581794 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0581794 class = 1
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.584867
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.470178
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.30508
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.718335
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.206773
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.510402
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+NULL tree
+leave left
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = 2 rows
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.0192969 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0192969 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0192969 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0192969 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0192969 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0192969 class = 1
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.584867
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.598526
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.783786
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.250209
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.914733
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.00859361
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+NULL tree
+leave right
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = 2 rows
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.0315281 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0315281 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0315281 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0315281 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0315281 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0315281 class = 1
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.584867
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.470178
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.30508
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.718335
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.206773
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.611034
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.0386106
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+NULL tree
+leave right
+Test best
+New  Best
+point.n_elem = 2
+point.class = 0
+Creation = 1 row
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.0666544 class = 0
+leave right
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = > 2
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.0481091 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0481091 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0481091 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0481091 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0481091 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0481091 class = 1
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.584867
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.598526
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.783786
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.250209
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.913479
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.304544
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.417872
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+NULL tree
+leave left
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = other_side
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.106593 class = 1
+leave right
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = 2 rows
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.0396148 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0396148 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0396148 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0396148 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0396148 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0396148 class = 1
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.584867
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.470178
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.30508
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.718335
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.206773
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.510402
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.68109
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+NULL tree
+leave left
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = other_side
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.146701 class = 1
+leave right
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = 2 rows
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.0257447 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0257447 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0257447 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0257447 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0257447 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0257447 class = 1
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.584867
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.598526
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.79572
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.907492
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.715503
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.947377
+Tree column = 1 ncols = 2 test.n_elem = 2
+Right
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.956293
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+NULL tree
+leave left
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = other_side
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.0381031 class = 1
+leave right
+Test best
+New  Best
+point.n_elem = 2
+point.class = 1
+Creation = 2 rows
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.0134988 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0134988 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0134988 class = 1
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0134988 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0134988 class = 1
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0134988 class = 1
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.584867
+Tree column = 0 ncols = 2 test.n_elem = 2
+Left
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.470178
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.213352
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.273999
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+Test depth
+median = 0.372198
+Tree column = 0 ncols = 2 test.n_elem = 2
+Right
+depth = 1
+
+Entering find_neighbor
+Test depth
+median = 0.100634
+Tree column = 1 ncols = 2 test.n_elem = 2
+Left
+depth = 0
+
+Entering find_neighbor
+NULL tree
+leave left
+Test best
+New  Best
+point.n_elem = 2
+point.class = 0
+Creation = 2 rows
+set point
+get dist
+set class
+Exit find neighborr
+
+Best = 0.0632717 class = 0
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0632717 class = 0
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0632717 class = 0
+leave right
+Test best
+Exit find neighborr
+
+Best = 0.0632717 class = 0
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0632717 class = 0
+leave left
+Test best
+Exit find neighborr
+
+Best = 0.0632717 class = 0

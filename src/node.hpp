@@ -6,13 +6,15 @@ using namespace Rcpp;
 class Node{
 public:
   NumericVector point;
-  IntegerVector point_class;
+  int point_class;
   double med;
   int column;
   Node *left_node;
   Node *right_node;
+  std::string creation;
 public:
   Node() {};
-  Node(int column, double med, NumericVector point, IntegerVector point_class, Node *left_node, Node *right_node);
+  Node(int column, double med, NumericVector point, int point_class, Node *left_node, Node *right_node, std::string creation = "blank");
   ~Node() {};
+  void print(int depth = 0);
 };
