@@ -26,23 +26,15 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
     double med = col(index);
     NumericVector median_point = X(index, _);
 
-    Rcout << "index = " << index << "\n";
-    Rcout << "len(classes) = " << Classes.size() << "\n";
-    Rcout << "1 - index = " << 1 - index << "\n";
-    Rcout << "Classes(1-index) = " << Classes(1-index) << "\n";
     int other_class = Classes(1-index);
-    Rcout << "other = " << other_class << "\n";
     Node * other_side = new Node(depth,
                            X(1-index, depth),
                            X(1-index, _),
                            other_class,
                            NULL,
-                           NULL, "other_side");
-    Rcout << "other side class = " << other_side->point_class << "\n";
-    Rcout << "other side column = " << other_side->column << "\n";
+                           NULL);
     if (other_side->point.size() != X.ncol()){
-      Rcout << other_side->point.size() << " " << X.ncol() << "\n";
-      Rcpp::stop("Number of elements in other node point do not equal number of points in training matrix2");
+      Rcpp::stop("Number of elements in node point do not equal number of points in training matrix");
     }
     Node * left_side = NULL;
     Node * right_side = NULL;
@@ -54,14 +46,12 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
       right_side = other_side;
     }
 
-    Rcout << "2 row med index = " << index << "\n";
-    Rcout << "med class = " << Classes(index) << "\n";
     Node * node = new Node(depth,
                            med,
                            median_point,
                            Classes(index),
                            left_side,
-                           right_side, "2 rows");
+                           right_side);
     return node;
   } else if(X.nrow() == 1){
     Node * node = new Node(depth,
@@ -69,14 +59,12 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
                                    X(0, _),
                                    Classes(0),
                                    NULL,
-                                   NULL, "1 row");
+                                   NULL);
     if (node->point.size() != X.ncol()){
-      Rcout << node->point.size() << " " << X.ncol() << "\n";
-      Rcpp::stop("Number of elements in node point do not equal number of points in training matrix1");
+      Rcpp::stop("Number of elements in node point do not equal number of points in training matrix");
     }
     return node;
   } else if (X.nrow() == 0){
-    Rcout << "no rows\n";
     return NULL;
   }
 
@@ -84,11 +72,9 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
   col = clone(col).sort();
 
   double med = col(X.nrow() / 2);
-  //Rcout << "med = " << med << "\n";
 
   int n_left = sum(X(_, depth) < med);
   int n_right = sum(X(_, depth) > med);
-  //Rcout << "nleft = " << n_left << " nright = " << n_right << "\n";
   NumericMatrix left_side(n_left, X.ncol());
   IntegerVector left_classes(n_left);
   NumericMatrix right_side(n_right, X.ncol());
@@ -109,15 +95,12 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
     } else {
       median_point = X(i, _);
       median_class = Classes(i);
-      Rcout << "median size = " << median_point.size() << "\n";
     }
   }
-  //Rcout << "left = " << count_l << " right = " << count_r << "\n";
   Node *left_node = create_tree(left_side,
                                 left_classes,
                                 depth + 1);
   if (left_node->point.size() != X.ncol()){
-    Rcout << left_node->point.size() << " " << X.ncol() << "\n";
     Rcpp::stop("Number of elements in left node point do not equal number of points in training matrix");
   }
   Node *right_node = create_tree(right_side,
@@ -125,7 +108,6 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
                                  depth + 1);
 
   if (right_node->point.size() != X.ncol()){
-    Rcout << right_node->point.size() << " " << X.ncol() << "\n";
     Rcpp::stop("Number of elements in right node point do not equal number of points in training matrix");
   }
   Node *node = new Node(depth,
@@ -133,9 +115,8 @@ Node *create_tree(NumericMatrix X, IntegerVector Classes, int depth = 0) {
                         median_point,
                         median_class,
                         left_node,
-                        right_node, "> 2");
+                        right_node);
   if (node->point.size() != X.ncol()){
-    Rcout << node->point.size() << " " << X.ncol() << "\n";
     Rcpp::stop("Number of elements in node point do not equal number of points in training matrix");
   }
   return node;
@@ -153,63 +134,34 @@ struct Point{
   };
 };
 
-Point find_neighbor(Node *tree, NumericVector test, Point best, int depth2 = 0){
-  depth2 = depth2 % test.size();
-  Rcout << "depth = " << depth2 << "\n";
-  if (depth2 > 100){
-    Rcpp::stop("over 100");
-  }
-  Rcout << "\nEntering find_neighbor\n";
+Point find_neighbor(Node *tree, NumericVector test, Point best){
+
   if(!tree){
-    Rcout << "NULL tree" << "\n";
     return best;
   }
 
-  Rcout << "Test depth\n";
-  Rcout << "median = " << tree->med << "\n";
   if (tree->column > test.size()){
-    Rcout << "tree col = " << tree->column << "\n";
     Rcpp::stop("Column greater than number of elements");
   }
-  Rcout << "Tree column = " << tree->column << " ncols = " << tree->point.size() << " test.n_elem = " << test.size() << "\n";
   if(test(tree->column) < tree->med){
-    Rcout << "Left\n";
-    best = find_neighbor(tree->left_node, test, best, ++depth2);
-    Rcout << "leave left" << "\n";
+    best = find_neighbor(tree->left_node, test, best);
   } else {
-    Rcout << "Right\n";
-    best = find_neighbor(tree->right_node, test, best, ++depth2);
-    Rcout << "leave right" << "\n";
+    best = find_neighbor(tree->right_node, test, best);
   }
 
-  Rcout << "Test best\n";
   if(best.dist < 0 || euclidean_dist(tree->point, test) < best.dist){
-    Rcout << "New  Best\n";
-    Rcout << "point.n_elem = " << tree->point.size() << "\n";
-    Rcout << "point.class = " << tree->point_class << "\n";
-    Rcout << "Creation = " << tree->creation << "\n";
-    Rcout << "set point" << "\n";
     best.point = tree->point;
-    Rcout << "get dist" << "\n";
     best.dist = euclidean_dist(tree->point, test);
-    Rcout << "set class" << "\n";
     best.point_class = tree->point_class;
 
   }
-  Rcout << "Exit find neighborr\n\n";
-  Rcout <<  "Best = " << best.dist << " class = " << best.point_class << "\n";
   return best;
 
 }
 
 // [[Rcpp::export]]
 IntegerVector nn_classification_cpp(NumericMatrix train, NumericMatrix test, IntegerVector classes){
-  //Rcout << "Entering classification_cpp\n";
-  // arma::mat train = as<arma::mat>(t1);
-  //  arma::mat test = as<arma::mat>(t2);
-  //  arma::vec classes = as<arma::vec>(cl);
   Node * tree = create_tree(train, classes);
-  tree->print();
   IntegerVector preds(test.nrow());
 
   for(int i=0; i < test.nrow(); i++){

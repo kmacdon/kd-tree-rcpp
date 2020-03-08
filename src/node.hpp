@@ -11,10 +11,9 @@ public:
   int column;
   Node *left_node;
   Node *right_node;
-  std::string creation;
 public:
   Node() {};
-  Node(int column, double med, NumericVector point, int point_class, Node *left_node, Node *right_node, std::string creation = "blank");
+  Node(int column, double med, NumericVector point, int point_class, Node *left_node, Node *right_node);
   ~Node() {};
   void print(int depth = 0);
 };
