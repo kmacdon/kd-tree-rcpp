@@ -3,7 +3,7 @@ Type: Package
 Title: C++ Implementation of KD Tree Nearest Neighbors Algorithm
 Version: 0.1.0
 Author: Kevin MacDonald
-Maintainer: kevinemacodnald@gmail.com
+Maintainer: <kevinemacodnald@gmail.com>
 Description: A package written using Rcpp to implement the nearest neighbors algorithm
   using a KD tree. Contains 
 License: MIT + file LICENSE

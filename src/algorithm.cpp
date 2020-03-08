@@ -159,6 +159,15 @@ Point find_neighbor(Node *tree, NumericVector test, Point best){
 
 }
 
+//' Nearest Neighbor Classification
+//'
+//' Finds the closest neighbor for each point in the test matrix
+//' and returns a vector of classifications
+//'
+//' @param train A numeric matrix of training points
+//' @param test A numeric matrix of test points
+//' @param classes A integer vector of training point classifications
+//' @export
 // [[Rcpp::export]]
 IntegerVector nn_classification_cpp(NumericMatrix train, NumericMatrix test, IntegerVector classes){
   Node * tree = create_tree(train, classes);
